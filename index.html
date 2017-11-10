@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="scripts/noteHandler.js"></script>
+    <script src="scripts/chordScaleHandler.js"></script>
+    <script src="scripts/ezSynth.js"></script>
+    <script src="scripts/beepBoopBlip.js"></script>
+    <title>Beep Boop Blip</title>
+</head>
+<body onload="setupInterface();">
+    <main>
+        <section id='scaleSampler'>
+            <h2>Scale Sampler</h2>
+            <p>
+            Key:<select id='keyIn'>
+                <option>C</option>
+                <option>C#/Db</option>
+                <option>D</option>
+                <option>D#/Eb</option>
+                <option>E</option>
+                <option>F</option>
+                <option>F#/Gb</option>
+                <option>G</option>
+                <option>G#/Ab</option>
+                <option>A</option>
+                <option>A#/Bb</option>
+                <option>B</option>
+            </select>
+            Chord/Scale:<select id='noteSetIn'></select>
+            <button id='playButton' onClick='playScale()'>Listen in</button>
+            </p>
+        </section>
+    </main>
+</body>
+</html>
