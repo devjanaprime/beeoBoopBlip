@@ -1,3 +1,5 @@
+let context = new( window.AudioContext || window.webkitAudioContext )();
+
 class Beep {
     constructor( type, freq, length ) {
         let oscillator = context.createOscillator();
@@ -7,5 +9,5 @@ class Beep {
         oscillator.start();
         oscillator.stop( context.currentTime + length );
         return oscillator;
-    }
-}
+    } // end constructor
+} // end Beep class

@@ -45,7 +45,7 @@ notes.push( new Note( 'G#', 'Ab', 103.83 ) );
 notes.push( new Note( 'A', '', 110.00 ) );
 notes.push( new Note( 'A#', 'Bb', 116.54 ) );
 notes.push( new Note( 'B', '', 123.47 ) );
-notes.push( new Note( 'C3', '', 130.81 ) );
+notes.push( new Note( 'C', '', 130.81 ) );
 notes.push( new Note( 'C#', 'Db', 138.59 ) );
 notes.push( new Note( 'D', '',	146.83 ) );
 notes.push( new Note( 'D#', 'Eb', 155.56 ) );
